@@ -36,6 +36,8 @@ class DownloadController extends Controller
             'download_count' => $software->download_count
         ]);
     }
+
+    
     
     public function incrementDownload($id)
     {
